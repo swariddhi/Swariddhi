@@ -35,7 +35,7 @@ a { color: inherit; }
 .nav-left a, .site-footer a { text-decoration: none; font-size: 18px; }
 .nav-left a { padding-bottom: 4px; }
 .nav-left a.active { border-bottom: 1px solid currentColor; }
-.wordmark { text-decoration: none; font-size: clamp(27px, 2.35vw, 40px); font-weight: 600; letter-spacing: -0px; white-space: nowrap; }
+.wordmark { text-decoration: none; font-size: clamp(27px, 2.35vw, 40px); font-weight: 400; letter-spacing: -0px; white-space: nowrap; }
 .nav-right { justify-content: flex-end; gap: 24px; }
 .social { text-decoration: none; display: inline-flex; justify-content: center; align-items: center; font-weight: 700; font-size: 25px; width: 24px; height: 28px; }
 .facebook { font-family: Arial, sans-serif; font-size: 29px; }
@@ -44,7 +44,7 @@ a { color: inherit; }
 .cart svg { width: 29px; height: 29px; fill: none; stroke: currentColor; stroke-width: 1.2; stroke-linecap: round; stroke-linejoin: round; }
 .menu-toggle { display: none; border: 0; background: transparent; font-size: 25px; }
 .intro { padding: clamp(90px, 9.1vw, 158px) var(--gutter) clamp(100px, 10.1vw, 175px); text-align: center; }
-.intro h1 { max-width: 1160px; margin: 0 auto; font-size: clamp(34px, 3.35vw, 58px); line-height: 1.27; letter-spacing: -1.9px; font-weight: 500; }
+.intro h1 { max-width: 1160px; margin: 0 auto; font-size: clamp(34px, 3.35vw, 58px); line-height: 1.27; letter-spacing: -1.9px; font-weight: 400; }
 .work-grid { padding: 0 var(--gutter); display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: clamp(26px, 2.8vw, 50px); }
 .project { position: relative; overflow: hidden; aspect-ratio: 1.5 / 1; display: flex; align-items: center; justify-content: center; text-decoration: none; }
 .project-dark { background: #FFFFFF; }
