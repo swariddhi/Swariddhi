@@ -10,7 +10,7 @@
 html { scroll-behavior: smooth; }
 body {
   margin: 0;
-  background: var(--page);
+  background: #FFFFFF;
   color: var(--ink);
   font-family: "DM Sans", Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
