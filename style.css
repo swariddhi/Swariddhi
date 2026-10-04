@@ -87,3 +87,7 @@ a { color: inherit; }
   html { scroll-behavior: auto; }
   *, *::before, *::after { transition-duration: .01ms !important; }
 }
+* {
+  font-family: "Aktiv Grotesk", sans-serif !important;
+  font-weight: 400 !important;
+}
