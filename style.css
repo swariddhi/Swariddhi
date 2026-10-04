@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap');
 
 :root {
-  --page: #dedfe0;
+  --page: #FFFFFF;
   --ink: #080808;
   --muted: #aaa9a4;
   --gutter: clamp(20px, 2.7vw, 48px);
