@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A clean, image-led portfolio template for artists and illustrators.">
+  <title>Artist Portfolio — Your Name</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav-left" aria-label="Main navigation">
+      <a class="active" href="#work">Work</a>
+      <a href="#shop">Shop</a>
+      <a href="#about">Blog</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="wordmark" href="#" aria-label="Home">Your Name</a>
+    <div class="nav-right" aria-label="Social links and cart">
+      <a href="https://twitter.com/" aria-label="Twitter" title="Twitter" class="social twitter">♥</a>
+      <a href="https://facebook.com/" aria-label="Facebook" title="Facebook" class="social facebook">f</a>
+      <a href="https://instagram.com/" aria-label="Instagram" title="Instagram" class="social instagram">◎</a>
+      <a href="#shop" class="cart" aria-label="Shopping cart"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M3 5h4l3.2 16h15.5l3-11H9M12 26a1.5 1.5 0 1 0 0 .1M24 26a1.5 1.5 0 1 0 0 .1"/></svg><span id="cart-count">0</span></a>
+    </div>
+    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+  </header>
+
+  <main>
+    <section class="intro" id="about">
+      <h1>Your Name is an artist and illustrator<br class="desktop-break"> based in Your City.</h1>
+    </section>
+
+    <section class="work-grid" id="work" aria-label="Selected work">
+      <a class="project project-dark" href="#contact">
+        <img src="assets/project-gator.svg" alt="Illustrated alligator vintage-style lettering poster">
+        <span class="project-caption"><strong>Gator Goods</strong><small>Brand illustration · 2025</small></span>
+      </a>
+      <a class="project project-light" href="#contact">
+        <img src="assets/project-dino.svg" alt="Retro dinosaur restaurant illustration poster">
+        <span class="project-caption"><strong>Tex-Mex T-Rex</strong><small>Illustration · 2025</small></span>
+      </a>
+      <a class="project project-light" href="#contact">
+        <img src="assets/project-day.svg" alt="Bold black vintage lettering composition">
+        <span class="project-caption"><strong>The Day Off</strong><small>Lettering · 2024</small></span>
+      </a>
+      <a class="project project-dark" href="#contact">
+        <img src="assets/project-comfort.svg" alt="Cream-colored skull and decorative lettering poster">
+        <span class="project-caption"><strong>Comfort Works</strong><small>Poster design · 2024</small></span>
+      </a>
+    </section>
+
+    <section class="shop-note" id="shop">
+      <p>Like something you see?</p>
+      <a href="#contact">Ask about prints and commissions <span aria-hidden="true">↗</span></a>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2>Have a project in mind?</h2>
+      <p>For collaborations, commissions, and general hellos.</p>
+      <a class="email-link" href="mailto:hello@example.com">hello@example.com</a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <nav aria-label="Footer navigation">
+      <a href="#work">Work</a>
+      <a href="#shop">Shop</a>
+      <a href="#about">Blog</a>
+      <a href="#contact">Contact</a>
+    </nav>
+      <p>© <span id="year"></span> Your Name · Made with care.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
