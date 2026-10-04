@@ -35,7 +35,14 @@ a { color: inherit; }
 .nav-left a, .site-footer a { text-decoration: none; font-size: 18px; }
 .nav-left a { padding-bottom: 4px; }
 .nav-left a.active { border-bottom: 1px solid currentColor; }
-.wordmark { text-decoration: none; font-size: clamp(27px, 2.35vw, 40px); font-weight: 400; letter-spacing: -0px; white-space: nowrap; }
+.wordmark {
+  font-family: "Aktiv Grotesk", sans-serif !important;
+  font-size: clamp(27px, 2.35vw, 40px);
+  font-weight: 400 !important;
+  letter-spacing: 0;
+  text-decoration: none;
+  white-space: nowrap;
+}
 .nav-right { justify-content: flex-end; gap: 24px; }
 .social { text-decoration: none; display: inline-flex; justify-content: center; align-items: center; font-weight: 700; font-size: 25px; width: 24px; height: 28px; }
 .facebook { font-family: Arial, sans-serif; font-size: 29px; }
