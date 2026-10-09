@@ -53,7 +53,7 @@ a { color: inherit; }
 .intro { padding: clamp(90px, 9.1vw, 158px) var(--gutter) clamp(100px, 10.1vw, 175px); text-align: center; }
 .intro h1 { max-width: 1160px; margin: 0 auto; font-size: clamp(34px, 3.35vw, 58px); line-height: 1.27; letter-spacing: -1.9px; font-weight: 400; }
 .work-grid { padding: 0 var(--gutter); display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: clamp(26px, 2.8vw, 50px); }
-.project { position: relative; overflow: hidden; aspect-ratio: 1.7 / 1; display: flex; align-items: center; justify-content: center; text-decoration: none; }
+.project { position: relative; overflow: hidden; aspect-ratio: 1.8 / 1; display: flex; align-items: center; justify-content: center; text-decoration: none; }
 .project-dark { background: #FFFFFF; }
 .project-light { background: #fff; }
 .project img { width: 100%; height: 100%; object-fit: contain; display: block; transition: transform .45s ease; }
